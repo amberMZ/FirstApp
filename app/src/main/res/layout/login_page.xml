@@ -34,7 +34,6 @@
         android:text="Log in"
         android:id="@+id/loginButton"
         android:padding="10dp"
-        android:layout_margin="50dp"
-        android:onClick="login"/>
+        android:layout_margin="50dp"/>
 
 </LinearLayout>

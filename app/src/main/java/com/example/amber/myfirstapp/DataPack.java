@@ -1,6 +1,8 @@
 package com.example.amber.myfirstapp;
 
 import android.content.Context;
+import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 
 import java.text.DateFormat;
@@ -26,18 +28,15 @@ public class DataPack {
         temperature = temperatureIn;
         gas = gasIn;
         particulate = particulateIn;
+
         time = new Date();
         DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
-    }
-
-    public void getLocation(){
-        //LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
-        LocationManager locationManager = (LocationManager)
-        getSystemService(Context.LOCATION_SERVICE);
     }
 
     public void updateLocation(){
 
     }
+
+
 
 }

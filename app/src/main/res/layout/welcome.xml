@@ -9,8 +9,7 @@
         android:text="Enter new data"
         android:id="@+id/enterDataButton"
         android:padding="10dp"
-        android:layout_margin="50dp"
-        android:onClick="enterData"/>
+        android:layout_margin="50dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -18,8 +17,7 @@
         android:text="my statistic"
         android:id="@+id/showStatButton"
         android:padding="10dp"
-        android:layout_margin="50dp"
-        android:onClick="showStat"/>
+        android:layout_margin="50dp"/>
 
     <Button
         android:layout_width="match_parent"
@@ -27,7 +25,6 @@
         android:text="check map"
         android:id="@+id/showMapButton"
         android:padding="10dp"
-        android:layout_margin="50dp"
-        android:onClick="showMap"/>
+        android:layout_margin="50dp"/>
 
 </LinearLayout>

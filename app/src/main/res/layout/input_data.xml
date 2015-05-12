@@ -62,6 +62,14 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="submit"
-        android:onClick="submitData" />
+        android:onClick="submitData"
+        android:id="@+id/submitDataButton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:id="@+id/goBackToWelcomeButton"
+        android:padding="10dp"
+        android:layout_margin="50dp"/>
 
 </LinearLayout>
